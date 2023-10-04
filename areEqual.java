@@ -14,7 +14,7 @@ public static Boolean areEqual1(int arr1[] , int arr2[])
     
     int count = 0 ; 
     Map <Integer , Integer > map =new HashMap <Integer , Integer > () ; 
-    for (int i = 0 ; i < n - 1 ; i++) 
+    for (int i = 0 ; i <= n - 1 ; i++) 
     {
         if (map.get(arr1[i]) == null)
         {
@@ -61,7 +61,7 @@ public static Boolean areEqual2(int arr1 [] , int arr2[] )
     Arrays.sort(arr1); 
     Arrays.sort(arr2); 
     
-    for (int i = 0 ; i< n -1 ; i++)
+    for (int i = 0 ; i<= n -1 ; i++)
     {
         if (arr1[i] != arr2[i])
         {
